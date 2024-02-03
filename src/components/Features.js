@@ -1,18 +1,29 @@
 const Features = () =>{
   const  features = [{ 
     btn1: "Lorem Ipsum",
+    bt1_manzil: "",
     btn2: "Dolor Sitema",
+    bt12_manzil: "",
     btn3: "Sed perspiciatis",
+    bt3_manzil: "",
     btn4: "Magni Dolores",
+    bt4_manzil: "",
     btn5: "Nemo Enim",
+    bt5_manzil: "",
     btn6: "Eiusmod Tempor",
-    btn7: "Midela Teren",
+    bt6_manzil: "",
+    btn7: "Midela Teren",bt1_manzil: "",
+    bt7_manzil: "",
     btn8: "Pira Neve",
+    bt8_manzil: "",
     btn9: "Dirada Pack",
+    bt9_manzil: "",
     btn10: "Moton Ideal",
+    bt10_manzil: "",
     btn11: "Verdo Park",
+    btN11_manzil: "",
     btn12: "Flavor Nivelanda",
-
+    bt12_manzil: "",
 
 
   }]

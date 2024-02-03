@@ -1,29 +1,30 @@
+import {Link} from "react-router-dom"
 export default function Navbaritem({ items }) {
   return (
     <>
       {items.submenu ? (
-        <>
+        
           <li className="dropdown">
-            <a href="/">
+            <Link to="/">
                 {items.nomi }
               <span>{items.submenu.nomi}</span>{" "}
               <i className="bi bi-chevron-down"></i>
-            </a>
+            </Link>
             <ul>
               {items.submenu.map((e) => (
                 <li>
-                  <a href={e.manzil}>{e.nomi}</a>
+                  <Link to={e.manzil}>{e.nomi}</Link>
                 </li>
               ))}
             </ul>
           </li>
-        </>
+        
       ) : (
         <li>
-          <a className="active" href={items.manzil}>
+          <Link className="active" to={items.manzil}>
             {items.nomi}
           
-          </a>
+          </Link>
          
         </li>
   

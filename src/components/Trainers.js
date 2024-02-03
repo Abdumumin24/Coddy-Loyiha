@@ -1,6 +1,7 @@
 const Trainers = () =>{
   const  trainers = [{ 
     card1:{
+      trainer_img: "",
       trainer_name: "Walter White",
       trainer_title: "Web Development",
       trainer_izohi: " Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut",
@@ -13,6 +14,7 @@ const Trainers = () =>{
       }
     },
     card2:{
+      trainer_img: "",
       trainer_name: "Sarah Jhinson",
       trainer_title: "Marketing",
       trainer_izohi: "Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus",
@@ -25,6 +27,7 @@ const Trainers = () =>{
       }
     },
     card3:{
+      trainer_img: "",
       trainer_name: "William Anderson",
       trainer_title: "Content",
       trainer_izohi: "Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara",

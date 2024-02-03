@@ -1,4 +1,5 @@
 // import {useState} from 'react'
+import { Link } from 'react-router-dom';
 import Navbaritem from './Navbaritem';
 const Navbar = () =>{
 
@@ -48,7 +49,7 @@ const Navbar = () =>{
     },
     {
       id:"6",
-      manzil: "/courses",
+      manzil: "/login",
       nomi:"Boshlash"
     }
 ];
@@ -62,7 +63,7 @@ const Navbar = () =>{
 
       <h1 className="logo me-auto"><a href="index.html">Mentor</a></h1>
      
-       <a href="index.html" className="logo me-auto"><img src="assets/img/logo.png" alt="" className="img-fluid"/></a>
+       <Link to="index.html" className="logo me-auto"><img src="assets/img/logo.png" alt="" className="img-fluid"/></Link>
 
       <nav id="navbar" className="navbar order-last order-lg-0">
         <ul>

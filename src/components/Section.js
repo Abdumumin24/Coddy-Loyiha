@@ -1,5 +1,6 @@
 export default function Section(){
   const  header = [{ 
+    background: "",
     name: "Learning Today,Leading Tomorrow",
     izohi: "We are team of talented designers making websites with Bootstrap",
     btn:{

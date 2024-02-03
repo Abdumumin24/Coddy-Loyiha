@@ -1,5 +1,8 @@
+import Count from "./Count"
+
 export default function About(){
   const  About = [{ 
+    Img: "",
     name: "Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.",
     izohi: "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     sections:{
@@ -41,7 +44,6 @@ export default function About(){
       </div>
     </section>
       )}
-        
       </>
     )
 }

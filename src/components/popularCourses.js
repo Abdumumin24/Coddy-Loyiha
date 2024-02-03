@@ -1,33 +1,37 @@
 const PopularCourses = () =>{
   const  courses = [{ 
-    title1: "Courses",
-    title2: "Popular Courses",
     card1:{
+      card_image: "",
       card_name: "Web Development",
       card_title: "Website Design",
       card_img: "",
       prise: "$169",
       card_izohi: "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      trainer_image: "",
       trainer_name: "Antonio",
       members: "50",
       likes: "65",
     },
     card2:{
+      card_image: "",
       card_name: "Marketing",
       card_title: "Search Engine Optimization",
       card_img: "",
       prise: "$250",
       card_izohi: "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      trainer_image: "",
       trainer_name: "Lana",
       members: "35",
       likes: "42",
     },
     card3:{
+      card_image: "",
       card_name: "Content",
       card_title: "Copywriting",
       card_img: "",
       prise: "$180",
       card_izohi: "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      trainer_image: "",
       trainer_name: "Brandon",
       members: "20",
       likes: "85",
@@ -43,8 +47,8 @@ const PopularCourses = () =>{
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>{e.title1}</h2>
-          <p>{e.title2}</p>
+          <h2>Courses</h2>
+          <p>Popular Courses</p>
         </div>
 
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
